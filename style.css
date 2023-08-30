@@ -1,0 +1,137 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0px;   
+}
+
+/*menu superior*/
+
+#menu_superior{
+background-color:  #303030;
+
+}
+#titulo_superior{
+  Width:1024px;
+  Height: 72px;
+  font-size: 55px;
+  padding-top: 206px;
+  margin-left: 62px;
+  color: #FFFFFF;
+  
+
+}
+#subtitulo_superior{
+  width: 1024px;
+  height: 28px;
+  font-size: 20px;
+  margin-left: 70px;
+  color: #FFFFFF;
+  padding-bottom: 170px;
+}
+
+/*rodape menu */
+
+#rodape{
+    display: grid;
+    grid-auto-flow: column;
+    padding: 71px;
+    background: #F9F9F9;    
+}
+.col{
+    width: 361px;
+    height: 88px;
+    margin-left: 100px;
+}
+
+.n{
+    font-size: 40px;
+}
+
+.p{
+    font-size: 20px;
+}
+
+
+/* texto foto*/
+
+#textf{
+    display: grid;
+    grid-auto-flow: column;
+    margin-bottom: 50px;
+}
+#texto{
+    text-align: justify;
+    margin-top: 170px;
+    margin-left: 70px;    
+}
+#titulot{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#conteudo{
+    font-size: 24px;
+}
+/* formulario*/
+
+#formulario{
+    text-align: center;
+    background: #303030;
+}
+
+#titulof{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: #FFFFFF;
+}
+
+input{
+    Width:400px;
+    Height: 20px;
+    margin: 25px;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+button{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #C07212;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    box-shadow: 15px 15px rgb(92, 76, 4);
+}
+
+#ajuda1{
+  font-size: 15px;
+  color:#FFFFFF;
+  display: none;
+  margin-left: 600px;
+  
+
+}
+
+#ajuda2{
+    font-size: 15px;
+    color:#FFFFFF;
+    display: none; 
+    margin-left: 600px;
+}
